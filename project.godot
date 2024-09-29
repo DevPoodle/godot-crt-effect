@@ -11,5 +11,17 @@ config_version=5
 [application]
 
 config/name="CRT Screen Effect"
+config/tags=PackedStringArray("educational")
+run/main_scene="res://example_scene/example_scene.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
 config/icon="res://icon.svg"
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/stretch/mode="viewport"
+
+[rendering]
+
+environment/defaults/default_clear_color=Color(0.760784, 0.764706, 0.780392, 1)
