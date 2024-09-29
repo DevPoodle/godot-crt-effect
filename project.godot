@@ -11,10 +11,10 @@ config_version=5
 [application]
 
 config/name="CRT Screen Effect"
-config/tags=PackedStringArray("educational")
+config/tags=PackedStringArray("educational", "side_scrolling_2d")
 run/main_scene="res://example_scene/example_scene.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
-config/icon="res://icon.svg"
+config/icon="res://icon.png"
 
 [display]
 
